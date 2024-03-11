@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.header {
+    background: #f7f7f7;
+    align-items: center;
+}
+.tarjetaheader {
+    background: #f8d7da;
+    margin: 20px 20px 10px 20px;
+    height: 35px;
+    display: flex;
+    align-items: center; 
+    border-radius: 5px;
+}
+.tarjetaheader p {
+    margin: 10px;
+}
+.datostarjeta{
+    margin: 20px 20px 10px 20px;
+}
+.containercuerpo{
+    margin: 20px 20px 10px 20px;
+}
+img{
+    width: 40px;
+    height: auto;
+}
+.fondotarjetas {
+    background: gray;
+    width: fit-content;
+}
+.notas {
+    font-size: small;
+    color: grey;
+}
+.footer{
+    background: #f7f7f7;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    gap: 10px;
+    height: 60px;
+}
+input {
+    border-radius: 5px;
+}
